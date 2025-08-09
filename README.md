@@ -9,12 +9,11 @@ Compares two limit rules:
 - Default rate by group (simple proxy)
 
 ## How to run
-```bash
-python3 -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python experiment.py```bash
-python3 -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python experiment.py
+    python3 -m venv .venv
+    source .venv/bin/activate  # Windows: .venv\Scripts\activate
+    pip install -r requirements.txt
+    python experiment.py
+
+## Outputs
+- [Summary table (CSV)](summary.csv)
+- ![Default rate by group](default_rate_by_group.png)
