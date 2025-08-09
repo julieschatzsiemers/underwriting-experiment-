@@ -14,3 +14,7 @@ python3 -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python experiment.py
+~~~
+## Outputs
+- [Summary table (CSV)](summary.csv)
+- [![Default rate by group](default_rate_by_group.png)](default_rate_by_group.png)
