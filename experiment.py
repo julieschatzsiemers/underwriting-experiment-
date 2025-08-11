@@ -1,6 +1,10 @@
-import numpy as np, pandas as pd, os, matplotlib.pyplot as plt
-os.makedirs("results", exist_ok=True)
+import os
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
+
+os.makedirs("results", exist_ok=True)
 np.random.seed(42); n = 1000
 users = pd.DataFrame({"user_id": range(n),
                       "income": np.random.normal(75_000, 20_000, n).clip(20_000, 200_000)})
