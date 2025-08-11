@@ -1,4 +1,4 @@
-# Underwriting Experiment (A/B Limit Policy)
+# Underwriting Limit Policy Simulation
 
 Compares two limit rules:
 - **A:** 30% of income  
